@@ -1,0 +1,52 @@
+body{
+  background: rgb(168,209,242);
+  background: linear-gradient(40deg, rgba(168,209,242,1) 19%, rgba(118,159,223,1) 100%);
+  background-size: 60% 60%;
+  animation: gradient-animation 6s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#result {
+  width: 175px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+
+}
+.form{
+  width: 100%;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  border: 1px solid blue;
+  border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ماشین حساب</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="calculator">
+    <h1>ماشین حساب ساده</h1>
+    <button><a href="https://youtube.com/@learncode0261">tutorial more /آموزش های بیشتر</a><br></button>
+    <hr>
+    <br>
+    <div class="form">
+        <br><br>
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+            <button onclick="clearResult()">پاک کردن</button>
+            <button onclick="appendValue(7)">7</button>
+            <button onclick="appendValue(8)">8</button>
+            <button onclick="appendValue(9)">9</button>
+            <button onclick="appendOperator('+')">+</button>
+            <button onclick="appendValue(4)">4</button>
+            <button onclick="appendValue(5)">5</button>
+            <button onclick="appendValue(6)">6</button>
+            <button onclick="appendOperator('-')">-</button>
+            <button onclick="appendValue(1)">1</button>
+            <button onclick="appendValue(2)">2</button>
+            <button onclick="appendValue(3)">3</button>
+            <button onclick="appendOperator('*')">*</button>
+            <button onclick="appendValue(0)">0</button>
+            <button onclick="appendOperator('/')">/</button>
+            <button onclick="calculate()">محاسبه</button>
+            <br>
+        </div>
+    </div>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
